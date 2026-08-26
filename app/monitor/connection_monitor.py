@@ -1,3 +1,4 @@
+from app.alerts.alert_manager import create_alert
 from multiprocessing.dummy import connection
 
 from app.detection.threat_detector import detect_threat
@@ -53,6 +54,12 @@ def get_active_connections():
         connection_info["severity"] = threat_result["severity"]
         connection_info["alerts"] = threat_result["alerts"]
 
+        if connection["threat_detected"]:
+            alert = create_alert(connection)
+            connection["security_alert"] = alert
+        else:
+            connection["security_alert"] = None
+
         log_firewall_event(connection_info)
 
         connection_data.append(connection_info)
@@ -88,5 +95,16 @@ def display_connections():
             print("  Security Alerts:")
             for alert in connection["alerts"]:
                 print(f"    - {alert}")
+
+    if connection.get("security_alert"):
+        alert = connection["security_alert"]
+
+        print("\n🚨 SECURITY ALERT")
+        print(f"Alert ID          : {alert['alert_id']}")
+        print(f"Severity          : {alert['severity']}")
+        print(f"Classification    : {alert['classification']}")
+        print(f"Remote Address    : {alert['remote_address']}")
+        print(f"Status            : {alert['status']}")
+        print(f"Message           : {alert['message']}")
 if __name__ == "__main__":
     display_connections()
