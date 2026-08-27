@@ -1,3 +1,4 @@
+from app.storage.event_storage import save_security_event
 from datetime import datetime
 
 
@@ -17,5 +18,6 @@ def create_alert(connection):
         "status": "OPEN",
         "message": "Suspicious network activity detected."
     }
+    saved_alert = save_security_event(alert)
 
-    return alert
+    return saved_alert

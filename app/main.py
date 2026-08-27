@@ -1,6 +1,5 @@
-from app.dashboard.statistics import calculate_security_statistics
-from app.dashboard.report_generator import generate_security_report
-
+from app.dashboard.dashboard_manager import run_security_dashboard
+from app.monitor.monitoring_service import start_monitoring
 
 def main():
     print("=" * 60)
@@ -9,20 +8,9 @@ def main():
     print("=" * 60)
 
 
-def generate_firewall_summary(connections):
-    """
-    Generate a complete security summary from processed connections.
-    """
-
-    statistics = calculate_security_statistics(connections)
-    report = generate_security_report(statistics)
-
-    return report
-
-
 def demo_security_report():
     """
-    Demonstrate security report generation.
+    Demonstrate security monitoring with dashboard integration.
     """
 
     sample_connections = [
@@ -38,9 +26,12 @@ def demo_security_report():
         }
     ]
 
-    report = generate_firewall_summary(sample_connections)
-
-    print("\n" + report)
+    start_monitoring(
+        sample_connections,
+        callback=run_security_dashboard,
+        cycles=3,
+        interval=3
+    )
 
 
 if __name__ == "__main__":

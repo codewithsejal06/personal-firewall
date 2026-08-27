@@ -1,0 +1,338 @@
+[
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T11:57:06"
+    },
+    {
+        "alert_id": "ALERT-20260827120249",
+        "timestamp": "2026-08-27T12:02:49",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827120249",
+        "timestamp": "2026-08-27T12:02:49",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827120249",
+        "timestamp": "2026-08-27T12:02:49",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:02:49"
+    },
+    {
+        "alert_id": "ALERT-20260827120603",
+        "timestamp": "2026-08-27T12:06:03",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827120603",
+        "timestamp": "2026-08-27T12:06:03",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827120603",
+        "timestamp": "2026-08-27T12:06:03",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:06:03"
+    },
+    {
+        "alert_id": "ALERT-20260827120810",
+        "timestamp": "2026-08-27T12:08:10",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827120810",
+        "timestamp": "2026-08-27T12:08:10",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827120810",
+        "timestamp": "2026-08-27T12:08:10",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:08:10"
+    },
+    {
+        "alert_id": "ALERT-20260827121355",
+        "timestamp": "2026-08-27T12:13:55",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827121355",
+        "timestamp": "2026-08-27T12:13:55",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827121355",
+        "timestamp": "2026-08-27T12:13:55",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:13:55"
+    },
+    {
+        "alert_id": "ALERT-20260827122107",
+        "timestamp": "2026-08-27T12:21:07",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827122107",
+        "timestamp": "2026-08-27T12:21:07",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827122107",
+        "timestamp": "2026-08-27T12:21:07",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:21:07"
+    },
+    {
+        "alert_id": "ALERT-20260827122150",
+        "timestamp": "2026-08-27T12:21:50",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827122150",
+        "timestamp": "2026-08-27T12:21:50",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827122151",
+        "timestamp": "2026-08-27T12:21:51",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:21:51"
+    },
+    {
+        "alert_id": "ALERT-20260827122538",
+        "timestamp": "2026-08-27T12:25:38",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827122538",
+        "timestamp": "2026-08-27T12:25:38",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827122538",
+        "timestamp": "2026-08-27T12:25:38",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:25:38"
+    },
+    {
+        "alert_id": "ALERT-20260827123053",
+        "timestamp": "2026-08-27T12:30:54",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827123054",
+        "timestamp": "2026-08-27T12:30:54",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827123054",
+        "timestamp": "2026-08-27T12:30:54",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:30:54"
+    },
+    {
+        "alert_id": "ALERT-20260827123317",
+        "timestamp": "2026-08-27T12:33:17",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827123317",
+        "timestamp": "2026-08-27T12:33:17",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827123317",
+        "timestamp": "2026-08-27T12:33:17",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:33:17"
+    },
+    {
+        "alert_id": "ALERT-20260827123839",
+        "timestamp": "2026-08-27T12:38:39",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827123839",
+        "timestamp": "2026-08-27T12:38:39",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260827123839",
+        "timestamp": "2026-08-27T12:38:39",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-08-27T12:38:39"
+    }
+]
