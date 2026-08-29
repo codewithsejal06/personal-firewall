@@ -1,6 +1,8 @@
-from unittest import result
-
-from app.monitor.monitoring_service import run_monitoring_cycle
+from app.monitor.monitoring_service import (
+    run_monitoring_cycle,
+    run_live_monitoring_cycle,
+    start_monitoring,
+)
 
 
 def test_monitoring_cycle_returns_connections():
@@ -40,11 +42,6 @@ def test_monitoring_cycle_calls_callback():
     run_monitoring_cycle(connections, test_callback)
 
     assert callback_called is True
-
-
-
-
-from app.monitor.monitoring_service import start_monitoring
 
 
 def test_start_monitoring_runs_multiple_cycles():
@@ -98,6 +95,7 @@ def test_start_monitoring_finishes_after_specified_cycles():
 
     assert callback_count == 2
 
+
 def test_monitoring_cycle_processes_connection_through_pipeline():
 
     connections = [
@@ -112,3 +110,33 @@ def test_monitoring_cycle_processes_connection_through_pipeline():
     assert result[0]["firewall_decision"] == "BLOCK"
     assert result[0]["threat_detected"] is True
     assert result[0]["severity"] == "HIGH"
+
+
+# -----------------------------------------
+# Sprint 12.2: Live Connection Monitoring
+# -----------------------------------------
+
+def test_live_monitoring_cycle_collects_and_processes_connections(
+    monkeypatch
+):
+
+    sample_connections = [
+        {
+            "remote_address": "198.51.100.50:443"
+        }
+    ]
+
+    def mock_collect_connections():
+        return sample_connections
+
+    monkeypatch.setattr(
+        "app.monitor.monitoring_service.collect_active_connections",
+        mock_collect_connections
+    )
+
+    result = run_live_monitoring_cycle()
+
+    assert len(result) == 1
+    assert result[0]["remote_address"] == "198.51.100.50:443"
+    assert "firewall_decision" in result[0]
+    assert "severity" in result[0]

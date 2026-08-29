@@ -1,3 +1,4 @@
+from app.monitor.connection_collector import collect_active_connections
 import time
 
 from app.core.security_pipeline import process_security_connection
@@ -34,6 +35,23 @@ def run_monitoring_cycle(
     print("Monitoring cycle completed.")
 
     return processed_connections
+
+def run_live_monitoring_cycle(callback=None):
+    """
+    Collect current live network connections and process them
+    through the existing security monitoring cycle.
+    """
+
+    print("\nCollecting live network connections...")
+
+    connections = collect_active_connections()
+
+    print(f"Collected {len(connections)} active connections.")
+
+    return run_monitoring_cycle(
+        connections,
+        callback=callback
+    )
 
 
 def start_monitoring(
