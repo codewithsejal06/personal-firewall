@@ -1,25 +1,48 @@
 import time
 
+from app.core.security_pipeline import process_security_connection
 
-def run_monitoring_cycle(connections, callback=None):
+
+def run_monitoring_cycle(
+    connections,
+    callback=None,
+    blocklist_manager=None
+):
     """
     Run one monitoring cycle.
 
-    The callback can be used to update the dashboard
-    after processing the current connections.
+    Each connection is processed through the complete
+    security pipeline before being sent to the callback.
     """
 
     print("\nStarting security monitoring cycle...")
 
+    processed_connections = []
+
+    for connection in connections:
+        processed_connection = process_security_connection(
+            connection,
+            blocklist_manager=blocklist_manager,
+            save_event=False
+        )
+
+        processed_connections.append(processed_connection)
+
     if callback:
-        callback(connections)
+        callback(processed_connections)
 
     print("Monitoring cycle completed.")
 
-    return connections
+    return processed_connections
 
 
-def start_monitoring(connections, callback=None, cycles=3, interval=5):
+def start_monitoring(
+    connections,
+    callback=None,
+    cycles=3,
+    interval=5,
+    blocklist_manager=None
+):
     """
     Run security monitoring cycles.
 
@@ -42,12 +65,17 @@ def start_monitoring(connections, callback=None, cycles=3, interval=5):
             print(f"MONITORING CYCLE {cycle_label}")
             print("=" * 60)
 
-            run_monitoring_cycle(connections, callback)
-
-            print(
-                f"Waiting {interval} seconds for the next cycle..."
+            run_monitoring_cycle(
+                connections,
+                callback=callback,
+                blocklist_manager=blocklist_manager
             )
-            time.sleep(interval)
+
+            if cycles is None or cycle < cycles:
+                print(
+                    f"Waiting {interval} seconds for the next cycle..."
+                )
+                time.sleep(interval)
 
             cycle += 1
 

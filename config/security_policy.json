@@ -1,0 +1,17 @@
+{
+    "blocked_ips": [
+        "192.168.1.200",
+        "203.0.113.10"
+    ],
+    "blocked_ports": [
+        23,
+        445
+    ],
+    "suspicious_ips": [
+        "10.0.0.99"
+    ],
+    "monitoring": {
+        "max_events": 100,
+        "alert_threshold": "MEDIUM"
+    }
+}

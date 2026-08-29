@@ -1,3 +1,5 @@
+from unittest import result
+
 from app.monitor.monitoring_service import run_monitoring_cycle
 
 
@@ -13,7 +15,10 @@ def test_monitoring_cycle_returns_connections():
 
     result = run_monitoring_cycle(connections)
 
-    assert result == connections
+    assert len(result) == 1
+    assert result[0]["firewall_decision"] == "ALLOW"
+    assert result[0]["severity"] == "LOW"
+    assert "firewall_reason" in result[0]
 
 
 def test_monitoring_cycle_calls_callback():
@@ -92,3 +97,18 @@ def test_start_monitoring_finishes_after_specified_cycles():
     )
 
     assert callback_count == 2
+
+def test_monitoring_cycle_processes_connection_through_pipeline():
+
+    connections = [
+        {
+            "remote_address": "203.0.113.10:443"
+        }
+    ]
+
+    result = run_monitoring_cycle(connections)
+
+    assert len(result) == 1
+    assert result[0]["firewall_decision"] == "BLOCK"
+    assert result[0]["threat_detected"] is True
+    assert result[0]["severity"] == "HIGH"
