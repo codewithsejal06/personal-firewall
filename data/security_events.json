@@ -3751,5 +3751,3071 @@
             "reason": "Threat severity is not high enough for automatic blocking."
         },
         "timestamp": "2026-08-30T21:14:11"
+    },
+    {
+        "alert_id": "ALERT-20260906114428",
+        "timestamp": "2026-09-06T11:44:28",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906114428",
+        "timestamp": "2026-09-06T11:44:28",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906114428",
+        "timestamp": "2026-09-06T11:44:28",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:44:28"
+    },
+    {
+        "alert_id": "ALERT-20260906114758",
+        "timestamp": "2026-09-06T11:47:58",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906114758",
+        "timestamp": "2026-09-06T11:47:58",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906114758",
+        "timestamp": "2026-09-06T11:47:58",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:47:58"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:47:58"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:47:58"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-06T11:47:58"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:47:59"
+    },
+    {
+        "alert_id": "ALERT-20260906115017",
+        "timestamp": "2026-09-06T11:50:17",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906115017",
+        "timestamp": "2026-09-06T11:50:17",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906115017",
+        "timestamp": "2026-09-06T11:50:17",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:50:17"
+    },
+    {
+        "alert_id": "ALERT-20260906115417",
+        "timestamp": "2026-09-06T11:54:17",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906115417",
+        "timestamp": "2026-09-06T11:54:17",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906115417",
+        "timestamp": "2026-09-06T11:54:17",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T11:54:17"
+    },
+    {
+        "alert_id": "ALERT-20260906120417",
+        "timestamp": "2026-09-06T12:04:17",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906120417",
+        "timestamp": "2026-09-06T12:04:17",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260906120417",
+        "timestamp": "2026-09-06T12:04:17",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T12:04:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T12:04:17"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T12:04:17"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-06T12:04:17"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-06T12:04:18"
+    },
+    {
+        "alert_id": "ALERT-20260907120756",
+        "timestamp": "2026-09-07T12:07:56",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907120756",
+        "timestamp": "2026-09-07T12:07:56",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907120756",
+        "timestamp": "2026-09-07T12:07:56",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:07:56"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:07:56"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:07:56"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-07T12:07:56"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:07:57"
+    },
+    {
+        "alert_id": "ALERT-20260907121341",
+        "timestamp": "2026-09-07T12:13:41",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907121341",
+        "timestamp": "2026-09-07T12:13:41",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907121341",
+        "timestamp": "2026-09-07T12:13:41",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:13:41"
+    },
+    {
+        "alert_id": "ALERT-20260907123707",
+        "timestamp": "2026-09-07T12:37:07",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907123707",
+        "timestamp": "2026-09-07T12:37:07",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907123707",
+        "timestamp": "2026-09-07T12:37:07",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:37:07"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:37:07"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:37:08"
+    },
+    {
+        "alert_id": "ALERT-20260907125021",
+        "timestamp": "2026-09-07T12:50:21",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907125021",
+        "timestamp": "2026-09-07T12:50:21",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907125022",
+        "timestamp": "2026-09-07T12:50:22",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:50:22"
+    },
+    {
+        "alert_id": "ALERT-20260907125431",
+        "timestamp": "2026-09-07T12:54:31",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907125431",
+        "timestamp": "2026-09-07T12:54:31",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260907125431",
+        "timestamp": "2026-09-07T12:54:31",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:54:31"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:54:31"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:54:31"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-07T12:54:31"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:54:31"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:54:31"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-07T12:54:32"
+    },
+    {
+        "alert_id": "ALERT-20260921190615",
+        "timestamp": "2026-09-21T19:06:15",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260921190615",
+        "timestamp": "2026-09-21T19:06:15",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260921190615",
+        "timestamp": "2026-09-21T19:06:15",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:06:15"
+    },
+    {
+        "alert_id": "ALERT-20260921191118",
+        "timestamp": "2026-09-21T19:11:18",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260921191118",
+        "timestamp": "2026-09-21T19:11:18",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260921191118",
+        "timestamp": "2026-09-21T19:11:18",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:11:18"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:11:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:11:18"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-21T19:11:18"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-21T19:11:18"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:11:18"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-21T19:11:18"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:11:18"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:11:19"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:11:19"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:11:19"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:11:19"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:11:19"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:11:19"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:11:19"
+    },
+    {
+        "alert_id": "ALERT-20260921191347",
+        "timestamp": "2026-09-21T19:13:47",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260921191347",
+        "timestamp": "2026-09-21T19:13:47",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260921191347",
+        "timestamp": "2026-09-21T19:13:47",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:13:48"
+    },
+    {
+        "alert_id": "ALERT-20260921191421",
+        "timestamp": "2026-09-21T19:14:21",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "8.8.8.8:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260921191421",
+        "timestamp": "2026-09-21T19:14:21",
+        "severity": "HIGH",
+        "classification": "EXTERNAL - ACTIVE",
+        "remote_address": "203.0.113.10:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "alert_id": "ALERT-20260921191421",
+        "timestamp": "2026-09-21T19:14:21",
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "remote_address": "192.168.1.200:443",
+        "status": "OPEN",
+        "message": "Suspicious network activity detected."
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:14:21"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:14:21"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:14:21"
+    },
+    {
+        "severity": "HIGH",
+        "classification": "SUSPICIOUS",
+        "message": "Potential security threat detected.",
+        "timestamp": "2026-09-21T19:14:21"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "N/A",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Valid remote IP address not available."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "HIGH",
+        "remote_address": "203.0.113.10:443",
+        "firewall_decision": "BLOCK",
+        "alerts": [
+            "Firewall blocked this connection. Security review is recommended."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "ip_address": "203.0.113.10",
+            "reason": "IP address is already in the blocklist."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:14:22"
+    },
+    {
+        "severity": "MEDIUM",
+        "remote_address": "198.51.100.50:443",
+        "firewall_decision": "ALLOW",
+        "alerts": [
+            "Remote IP 198.51.100.50 matches the suspicious IP list."
+        ],
+        "automatic_blocking": {
+            "blocked": false,
+            "reason": "Threat severity is not high enough for automatic blocking."
+        },
+        "timestamp": "2026-09-21T19:14:22"
     }
 ]

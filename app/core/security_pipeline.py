@@ -1,3 +1,4 @@
+from app.response.incident_manager import create_incident
 from app.firewall.rules import evaluate_connection
 from app.firewall.policy_enforcer import enforce_blocklist
 from app.detection.threat_detector import detect_threat
@@ -88,4 +89,20 @@ def process_security_connection(
 
         save_security_event(security_event)
 
+
+        # ---------------------------------------------------------
+    # STEP 6: Create incident for high-severity threats
+    # ---------------------------------------------------------
+
+    if (
+        processed_connection["threat_detected"]
+        and processed_connection["severity"] == "HIGH"
+    ):
+        incident = create_incident(processed_connection)
+
+        processed_connection["incident"] = incident
+
     return processed_connection
+
+
+    
