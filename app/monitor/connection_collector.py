@@ -35,6 +35,62 @@ def get_protocol(connection_type):
     return "UNKNOWN"
 
 
+def get_direction(local_address, remote_address):
+    """
+    Determine the likely traffic direction from connection ports.
+
+    This is an application-level classification based on connection
+    metadata. It does not inspect packet contents.
+    """
+
+    if not local_address or not remote_address:
+        return "UNKNOWN"
+
+    local_port = local_address[1]
+    remote_port = remote_address[1]
+
+    # Common server/service ports.
+    well_known_ports = {
+        20,
+        21,
+        22,
+        23,
+        25,
+        53,
+        80,
+        110,
+        143,
+        443,
+        445,
+        587,
+        993,
+        995,
+    }
+
+    # Local well-known port + remote ephemeral port
+    # usually represents an inbound connection.
+    if (
+        local_port in well_known_ports
+        and remote_port >= 1024
+    ):
+        return "INBOUND"
+
+    # Local ephemeral port + remote well-known port
+    # usually represents an outbound connection.
+    if (
+        local_port >= 1024
+        and remote_port in well_known_ports
+    ):
+        return "OUTBOUND"
+
+    # Most client-side connections use an ephemeral
+    # local port.
+    if local_port >= 1024:
+        return "OUTBOUND"
+
+    return "UNKNOWN"
+
+
 def collect_active_connections():
     """
     Collect active network connections from the local system.
@@ -45,22 +101,42 @@ def collect_active_connections():
 
     collected_connections = []
 
-    connections = psutil.net_connections(kind="inet")
+    connections = psutil.net_connections(
+        kind="inet"
+    )
 
     for connection in connections:
 
-        # Ignore connections that do not have a remote address.
+        # Ignore connections that do not have
+        # a remote address.
         if not connection.raddr:
             continue
 
         connection_data = {
-            "local_address": format_address(connection.laddr),
-            "remote_address": format_address(connection.raddr),
+            "local_address": format_address(
+                connection.laddr
+            ),
+
+            "remote_address": format_address(
+                connection.raddr
+            ),
+
             "status": connection.status,
-            "protocol": get_protocol(connection.type),
+
+            "protocol": get_protocol(
+                connection.type
+            ),
+
+            "direction": get_direction(
+                connection.laddr,
+                connection.raddr
+            ),
+
             "pid": connection.pid,
         }
 
-        collected_connections.append(connection_data)
+        collected_connections.append(
+            connection_data
+        )
 
     return collected_connections
